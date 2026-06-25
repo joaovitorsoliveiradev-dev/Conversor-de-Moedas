@@ -10,15 +10,15 @@ function HandleConverterValue(){
     switch(operation) {
         case "USD":
             conversao = coin * 5.19
-            convertion.innerHTML = `Na cotação atual, ${coin} BRL equivale a ${conversao.toFixed(2)} USD`;
+            convertion.innerHTML = `Na cotação atual, ${coin} USD equivale a ${conversao.toFixed(2)} BRL`;
             break;
         case "EUR":
             conversao = coin * 5.91; 
-            convertion.innerHTML = `Na cotação atual, ${coin} BRL equivale a ${conversao.toFixed(2)} EUR`;
+            convertion.innerHTML = `Na cotação atual, ${coin} EUR equivale a ${conversao.toFixed(2)} BRL`;
             break;
         case "GBP":
             conversao = coin * 6.85; 
-            convertion.innerHTML = `Na cotação atual, ${coin} BRL equivale a ${conversao.toFixed(2)} GBP`;
+            convertion.innerHTML = `Na cotação atual, ${coin} GBP equivale a ${conversao.toFixed(2)} BRL`;
             break;
     }
 }
